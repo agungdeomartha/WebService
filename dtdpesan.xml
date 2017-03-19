@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE pesan [
+<!ELEMENT pesan (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<pesan>
+<to>Fulan</to>
+<from>Agung</from>
+<heading>Reminder</heading>
+<body>jangan lupa berolahraga hari ini</body>
+</pesan>
